@@ -1,0 +1,114 @@
+body {
+  padding-bottom: 4rem;
+}
+
+.site-header {
+  padding: 1rem 1rem 4rem 1rem;
+}
+
+.site-footer {
+  padding: 4rem 1rem 0 1rem;
+  text-align: right;
+}
+
+/* Portfolio 
+
+.post.project {
+  
+  section {
+    padding-top: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+}
+
+.projects {
+  
+  .project-card {
+    margin-bottom: $spacing-unit*2;
+  }
+  
+  
+  
+}
+
+*/
+
+
+/* Wider than a phone
+------------------------------------------------- */
+@media screen and (min-width: 40rem) {
+
+  
+  /* Portfolio 
+  
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: $spacing-unit*2;
+    
+    .project-card {
+      
+    }
+  }
+  
+  .post.project {
+    max-width: 60rem;
+
+    section {
+      clear: both;
+      padding-left: 20rem;
+      
+      h2 {
+        float: left;
+        margin-left: -20rem;
+        width: 18rem;
+      }
+      
+    }
+  
+    .post-header {
+      float: left;
+      width: 18rem;
+    }
+    
+    .project-featured-image {
+      float: right;
+      width: calc(100% - 20rem);
+      margin-bottom: 2rem;
+    }
+  
+    
+  }
+  
+  .image-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: $spacing-unit / 2;
+  }
+  
+  */
+
+}
+
+/* Taller and wider than a phone
+------------------------------------------------- */
+@media screen and (min-width: 40rem) and (min-height: 40rem) {
+
+}
+
+/* Taller than a small laptop
+------------------------------------------------- */
+@media screen and (min-width: 40rem) and (min-height: 50rem) {
+
+
+
+}
+
+/* Wider than a medium laptop
+------------------------------------------------- */
+
+@media screen and (min-width: 65rem) {
+
+}
