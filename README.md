@@ -1,2 +1,2 @@
-# flower2thepeople
-Website for Flower 2 the People
+# flowerstothepeople
+Website for Flowers to the People
