@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Flower 2 the People
-email: people@flower2thepeople.org
+title: Flowers to the People
+email: people@flowerstothepeople.org
 description: >- # this means to ignore newlines until "baseurl:"
-  Sowing the seeds of social justice and helping them bloom. We encouraging donations to local social justice organizations in Boston through growing and distributing flowers for free.
+  Sowing the seeds of social justice and helping them bloom. We encouraging donations to local social justice organizations in Boston, Massachusetts through growing and distributing free flowers.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.flower2thepeople.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.flowerstothepeople.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ""
 github_username:  ""
 social_image: /images/social/benji-site-image.jpg
