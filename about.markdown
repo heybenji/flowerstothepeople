@@ -16,7 +16,7 @@ For the people hear us singing, bread and roses, bread and roses.
 
 ## Mission
 
-Flowers to the People sows the seeds of social justice and helps them bloom. We encourage donations to local social justice organizations in Boston, Massachusetts through growing and distributing free flowers. Instead of Community Supported Agriculture, we practice Community Solidarity Agriculture, where the community support those among us most in need of support.
+Flowers to the People sows the seeds of social justice and helps them bloom. We encourage donations to local social justice organizations in Boston, Massachusetts through growing and distributing free flowers. Instead of Community Supported Agriculture, we practice Community Solidarity Agriculture, where the community supports those among us most in need of support.
 
 ## Vision
 
