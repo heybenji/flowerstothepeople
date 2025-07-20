@@ -20,7 +20,7 @@ Flowers to the People sows the seeds of social justice and helps them bloom. We 
 
 ## Vision
 
-Flowers have long represented the beauty and joy we all need to thrive. We imagine a world where struggle is met and undone with beauty, creativity, and joy. Like the women of the [Bread & Roses strike of 1912](https://en.wikipedia.org/wiki/1912_Lawrence_textile_strike), we imagine a world where there there is an abundance of bread and roses: both sustenance and beauty.
+Flowers have long represented the beauty and joy we all need to thrive. We imagine a world where oppression is met and undone with beauty, creativity, and joy. Like the women of the [Bread & Roses strike of 1912](https://en.wikipedia.org/wiki/1912_Lawrence_textile_strike), we imagine a world where there there is an abundance of bread and roses: both sustenance and beauty.
 
 ## Frequently Asked Questions
 
