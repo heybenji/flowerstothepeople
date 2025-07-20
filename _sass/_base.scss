@@ -9,11 +9,13 @@ $border-radius: 8px;
 $spacing-unit: 1rem;
 
 %brand-font {
-  font-family: 'Helvetica', 'Arial', 'sans-serif';
+  font-family: "Palette Mosaic", 'Helvetica', 'Arial', sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 %body-font {
-  font-family: 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
 %fancy-image {
@@ -28,7 +30,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 18px;
-  line-height: 1.8rem;
+  line-height: 1.8;
   @extend %body-font;
 }
 
@@ -39,13 +41,13 @@ h4 {
   margin-bottom: 1rem;
 }
 
-h1,
-h2 {
-  color: $benji-purple;
+h1 {
+  font-size: 4rem;
+  @extend %brand-font;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 3rem;
   @extend %brand-font;
 }
 
@@ -262,6 +264,26 @@ img {
 
 }
 
+/* Posts & Pages
+------------------------------------------------- */
+
+.post,
+.page {
+  ul {
+    @extend %styled-list;
+    list-style: disc;
+  }
+  
+  ol {
+    @extend %styled-list;
+    list-style: decimal;
+  }
+  table th {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.875em;
+  }
+}
 
 /* Posts
 ------------------------------------------------- */
@@ -287,20 +309,6 @@ img {
     color: transparentize($black, .6);
   }
 
-  ul {
-    @extend %styled-list;
-    list-style: disc;
-  }
-
-  ol {
-    @extend %styled-list;
-    list-style: decimal;
-  }
-  table th {
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-size: 0.875em;
-  }
 }
 
 .posts {
