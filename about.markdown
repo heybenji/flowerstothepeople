@@ -12,11 +12,11 @@ A million darkened kitchens, a thousand mill lofts gray<br>
 Are touched with all the radiance that a sudden sun discloses<br>
 For the people hear us singing, bread and roses, bread and roses.
 
-—[Bread &amp; Roses union song](https://en.wikipedia.org/wiki/Bread_and_Roses)
+—[Bread &amp; Roses strike song](https://en.wikipedia.org/wiki/Bread_and_Roses)
 
 ## Mission
 
-Flowers to the People sows the seeds of social justice and helps them bloom. We encourage donations to local social justice organizations in Boston, Massachusetts through growing and distributing free flowers. Instead of Community Supported Agriculture, we practice Community Solidarity Agriculture, where the community supports those among us most in need of support.
+{{ site.description }} Instead of Community <em>Supported</em> Agriculture, we practice Community <em>Solidarity</em> Agriculture, where the community supports those among us most in need of support.
 
 ## Vision
 
