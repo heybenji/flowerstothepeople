@@ -5,23 +5,80 @@
 layout: home
 class: home
 ---
+
+<section class="intro">
+
 <p>
   {{ site.description }}
   <a href="{{ site.baseurl }}/about">Learn more</a>
 </p>
 
-<h1>Events</h1>
+</section>
 
-<p>Event listing</p>
+<section class="event-schedule">
 
-<h1>Partners</h1>
+<h1>Fall 2025 Schedule</h1>
 
-<p>Partners listing</p>
+{% assign events_grouped = site.data.events | group_by_exp: "item","item.start | date: '%Y-%m-%d'" | sort: "name" %}
+{% for group in events_grouped %}
+<h3>
+  {{ group.name | date: "%A, %b %e" }}
+</h3>
+<ul>
+{% for item in group.items %}
+  <li>
+    <time datetime="{{ item.start }}">
+      <em>{{ item.start | date: "%l%P" }} to {{ item.end | date: "%l%P" }}:</em> {{ item.title }}
+    </time>
+  </li>
+{% endfor %}
+</ul>
+{% endfor %}
 
-<h1>Updates</h1>
+</section>
+
+<section>
+
+<h1>
+  Donate
+</h1>
+
+<div class="gfm-embed" data-url="https://www.gofundme.com/f/support-beyond-bond-legal-defense-fund/widget/medium?sharesheet=undefined&attribution_id=sl:93d5d7cb-54dd-434a-858d-de9292aa10ed"></div><script defer src="https://www.gofundme.com/static/js/embed.js"></script>
+
+</section>
+
+<section>
+
+<h1>
+  Get involved
+</h1>
+
+<p>
+  There are four ways you can get involved:
+</p>
+<ol>
+  <li>Volunteer to harvest and distribute bouquets</li>
+  <li>Donate when you receive a bouquet</li>
+  <li>Donate to pick up a Community Solidarity Agriculture share on harvest days</li>
+  <li>Help clean up and divide tubers in the fall</li>
+</ol>
+  
+</section>
+
+<section>
+  
+<h1>
+  Updates
+</h1>
   
 <p>Updates listing</p>
+
+</section>
+
+<section>
 
 <h1>Photos</h1>
 
 <p>Photos listing</p>
+
+</section>
