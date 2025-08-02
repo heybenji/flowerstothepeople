@@ -1,9 +1,12 @@
+@use "base";
+
 body {
   padding-bottom: 4rem;
 }
 
 .site-header {
   padding: 1rem 1rem 4rem 1rem;
+  
 }
 
 .site-footer {
@@ -11,90 +14,24 @@ body {
   text-align: right;
 }
 
-main {
+.home section,
+.page main {
   max-width: 50rem;
   margin-right: auto;
   margin-left: auto;
 }
 
-/* Portfolio 
-
-.post.project {
-  
-  section {
-    padding-top: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-  
-}
-
-.projects {
-  
-  .project-card {
-    margin-bottom: $spacing-unit*2;
-  }
-  
-  
-  
-}
-
-*/
-
 
 /* Wider than a phone
 ------------------------------------------------- */
 @media screen and (min-width: 40rem) {
-
-  
-  /* Portfolio 
-  
-  .projects {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: $spacing-unit*2;
-    
-    .project-card {
-      
-    }
-  }
-  
-  .post.project {
-    max-width: 60rem;
-
-    section {
-      clear: both;
-      padding-left: 20rem;
-      
-      h2 {
-        float: left;
-        margin-left: -20rem;
-        width: 18rem;
-      }
-      
-    }
-  
-    .post-header {
-      float: left;
-      width: 18rem;
-    }
-    
-    .project-featured-image {
-      float: right;
-      width: calc(100% - 20rem);
-      margin-bottom: 2rem;
-    }
-  
-    
-  }
   
   .image-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: $spacing-unit / 2;
+    grid-gap: calc(base.$spacing-unit / 2);
   }
-  
-  */
+
 
 }
 

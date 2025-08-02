@@ -1,21 +1,34 @@
+@use 'sass:color';
+
 $benji-blue: #50E3C2;
 $benji-blue-dark: darken($benji-blue, 10%);
 $benji-blue-accessible: #0A745D;
 $benji-blue-accessible-slate: #0A5374;
 $benji-purple: #895689;
 $white: #FCFAFB;
+// $background: #fdffe8;
+$background: #FFFFFF;
+$text: #000000;
+$action: #3863e3;
+$action-hover: color.mix($action, $text, 50%);
+$brand-green-dark: #215b34;
+$brand-green-medium: #609511;
+$brand-green-light: #e4ea8c;
 $black: mix($white, #000, 5%);
 $border-radius: 8px;
 $spacing-unit: 1rem;
+$timing-unit: 300ms;
 
 %brand-font {
   font-family: "Palette Mosaic", 'Helvetica', 'Arial', sans-serif;
   font-weight: 400;
   font-style: normal;
+  text-transform: uppercase;
+  line-height: 1.4;
 }
 
 %body-font {
-  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
 %fancy-image {
@@ -25,8 +38,8 @@ $spacing-unit: 1rem;
 }
 
 body {
-  background: $white;
-  color: transparentize($black, .25);
+  background: $background;
+  color: $text;
   margin: 0;
   padding: 0;
   font-size: 18px;
@@ -47,13 +60,14 @@ h1 {
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   @extend %brand-font;
 }
 
 h3 {
   font-weight: bold;
   font-size: 1.125rem;
+  margin-bottom: 0;
 }
 
 p {
@@ -92,10 +106,19 @@ td {
 }
 
 a {
-  color: $benji-blue-accessible;
-  text-decoration: none;
-  transition: color .3s ease;
-  border-bottom: 3px solid transparentize($benji-blue, .9);
+  color: $action;
+  text-decoration: underline;
+  transition: color $timing-unit ease;
+}
+
+a:hover,
+a:focus {
+  color: $action-hover;
+}
+
+a:active {
+  color: #000;
+  opacity: 1;
 }
 
 em {
@@ -128,16 +151,6 @@ figcaption {
   @extend %small-text;
 }
 
-a:hover,
-a:focus {
-  color: $benji-blue-dark;
-}
-
-a:active {
-  color: #000;
-  opacity: 1;
-}
-
 img {
   width: 100%;
   height: auto;
@@ -152,9 +165,9 @@ img {
 
 .site-title {
   @extend %brand-font;
-  color: transparentize($black, .25);
+  color: $brand-green-dark;
   font-size: 1.5rem;
-  
+  text-decoration: none;
 }
 
 /* Footer
@@ -169,55 +182,6 @@ img {
 
 .home > section {
   margin-bottom: 4rem;
-}
-
-/* Pitch
-------------------------------------------------- */
-
-.pitch {
-  font-size: 1.125em;
-  line-height: 2em;
-  color: transparentize($black, .4);
-}
-
-.pitch h1 {
-  @extend %brand-font;
-  font-weight: normal;
-  color: $benji-purple;
-  font-size: 1.25em;
-}
-
-
-/* Contact
-------------------------------------------------- */
-
-.contact {
-  border: 1px solid $benji-purple;
-  background-color: $benji-purple;
-  color: $white;
-}
-
-.contact h2 {
-  font-family: 'Hernandez-Bold', 'Helvetica', 'Arial', 'sans-serif';
-  font-size: 1.375em;
-  margin-bottom: 0;
-}
-
-.contact-points p:first-child {
-  margin-top: 1rem;
-}
-
-.contact-points-info p:first-child {
-  margin-top: 2rem;
-}
-
-.contact-points .contact-email,
-.contact-points .contact-phone {
-  font-size: 1em;
-}
-
-.contact-points a {
-  color: $white;
 }
 
 /* Social Icons
@@ -268,7 +232,7 @@ img {
 ------------------------------------------------- */
 
 .post,
-.page {
+.page main {
   ul {
     @extend %styled-list;
     list-style: disc;
@@ -282,6 +246,16 @@ img {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-size: 0.875em;
+  }
+}
+
+/* Posts & Pages
+------------------------------------------------- */
+
+.event-schedule {
+  ul {
+    @extend %styled-list;
+    list-style: disc;
   }
 }
 
