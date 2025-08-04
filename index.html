@@ -28,7 +28,7 @@ class: home
 {% for item in group.items %}
   <li>
     <time datetime="{{ item.start }}">
-      <em>{{ item.start | date: "%l%P" }} to {{ item.end | date: "%l%P" }}:</em> {{ item.title }}
+      <em>{{ item.start | date: "%l:%M%P" }} to {{ item.end | date: "%l:%M%P" }}:</em> {{ item.title }}
     </time>
   </li>
 {% endfor %}
