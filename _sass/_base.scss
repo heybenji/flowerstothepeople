@@ -232,7 +232,8 @@ img {
 ------------------------------------------------- */
 
 .post,
-.page main {
+.page main,
+.home section {
   ul {
     @extend %styled-list;
     list-style: disc;
@@ -249,7 +250,7 @@ img {
   }
 }
 
-/* Posts & Pages
+/* Events
 ------------------------------------------------- */
 
 .event-schedule {
