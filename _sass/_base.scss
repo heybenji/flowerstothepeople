@@ -14,10 +14,11 @@ $action-hover: color.mix($action, $text, 50%);
 $brand-green-dark: #215b34;
 $brand-green-medium: #609511;
 $brand-green-light: #e4ea8c;
+$brand-pink-dark: #660135;
 $black: mix($white, #000, 5%);
 $border-radius: 8px;
 $spacing-unit: 1rem;
-$timing-unit: 300ms;
+$timing-unit: 500ms;
 
 %brand-font {
   font-family: "Palette Mosaic", 'Helvetica', 'Arial', sans-serif;
@@ -57,17 +58,20 @@ h4 {
 h1 {
   font-size: 4rem;
   @extend %brand-font;
+  color: $brand-green-dark;
 }
 
 h2 {
   font-size: 2.5rem;
   @extend %brand-font;
+  color: $brand-green-medium;
 }
 
 h3 {
   font-weight: bold;
   font-size: 1.125rem;
   margin-bottom: 0;
+  color: $brand-green-dark;
 }
 
 p {
@@ -181,7 +185,36 @@ img {
 ------------------------------------------------- */
 
 .home > section {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
+}
+
+.home .intro {
+  // background-image: url('/images/header-background-lanter-parade.jpg');
+  // background-size: cover;
+  // background-position: bottom right;
+  // color: $white;
+  // text-shadow: 0 0 2rem $black;
+  font-size: 1.5rem;
+}
+
+/* Donate Link 
+------------------------------------------------- */
+
+a.donate-cta {
+  background: $brand-pink-dark;
+  border-radius: 2rem;
+  color: $white;
+  display: block;
+  width: fit-content;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem 3rem;
+  text-decoration: none;
+  transition: all ease $timing-unit;
+  &:hover {
+    background: color.scale($brand-pink-dark, $lightness: 15%);
+    transform: translate(-.25rem,-.25rem);
+  }
 }
 
 /* Social Icons
