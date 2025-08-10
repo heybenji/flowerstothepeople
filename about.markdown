@@ -7,13 +7,6 @@ class: page
 
 # About
 
-> As we go marching, marching, in the beauty of the day<br>
-A million darkened kitchens, a thousand mill lofts gray<br>
-Are touched with all the radiance that a sudden sun discloses<br>
-For the people hear us singing, bread and roses, bread and roses.
-
-—[Bread &amp; Roses strike song](https://en.wikipedia.org/wiki/Bread_and_Roses)
-
 ## Mission
 
 {{ site.description }} Instead of Community <em>Supported</em> Agriculture, we practice Community <em>Solidarity</em> Agriculture, where the community supports those among us most in need of support.
