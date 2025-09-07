@@ -1,59 +1,59 @@
 - start: 2025-09-06 09:00:00 -0400
-  end: 2025-09-06 10:30:00 -0400
-  title: Harvest and arrange
+  end: 2025-09-06 12:00:00 -0400
+  title: Harvest, arrange, and distribute
   category: volunteer
   description: Harvest and arrange bouquets for distribution around Roslindale and Jamaica Plain.
 
-- start: 2025-09-06 10:30:00 -0400
-  end: 2025-09-06 12:00:00 -0400
+- start: 2025-09-06 10:00:00 -0400
+  end: 2025-09-06 11:00:00 -0400
+  title: CSA pickup
+  category: pickup
+  description: Pick up Community Solidarity Agriculture bouquet share.
+
+- start: 2025-09-13 09:00:00 -0400
+  end: 2025-09-13 12:00:00 -0400
+  title: Harvest, arrange, and distribute
+  category: volunteer
+  description: Harvest and arrange bouquets for distribution around Roslindale and Jamaica Plain.
+  
+- start: 2025-09-13 10:00:00 -0400
+  end: 2025-09-13 11:00:00 -0400
   title: CSA pickup
   category: pickup
   description: Pick up Community Solidarity Agriculture bouquet share.
 
 - start: 2025-09-20 09:00:00 -0400
-  end: 2025-09-20 10:30:00 -0400
-  title: Harvest and arrange
-  category: volunteer
-  description: Harvest and arrange bouquets for distribution around Roslindale and Jamaica Plain.
-  
-- start: 2025-09-20 10:30:00 -0400
   end: 2025-09-20 12:00:00 -0400
-  title: CSA pickup
-  category: pickup
-  description: Pick up Community Solidarity Agriculture bouquet share.
-  
-- start: 2025-09-13 09:00:00 -0400
-  end: 2025-09-13 10:30:00 -0400
-  title: Harvest and arrange
+  title: Harvest, arrange, and distribute
   category: volunteer
   description: Harvest and arrange bouquets for distribution around Roslindale and Jamaica Plain.
   
-- start: 2025-09-13 10:30:00 -0400
-  end: 2025-09-13 12:00:00 -0400
+- start: 2025-09-20 10:00:00 -0400
+  end: 2025-09-20 11:00:00 -0400
   title: CSA pickup
   category: pickup
   description: Pick up Community Solidarity Agriculture bouquet share.
   
 - start: 2025-09-27 09:00:00 -0400
-  end: 2025-09-27 10:30:00 -0400
-  title: Harvest and arrange
+  end: 2025-09-27 12:00:00 -0400
+  title: Harvest, arrange, and distribute
   category: volunteer
   description: Harvest and arrange bouquets for distribution around Roslindale and Jamaica Plain.
   
-- start: 2025-09-27 10:30:00 -0400
-  end: 2025-09-27 12:00:00 -0400
+- start: 2025-09-27 10:00:00 -0400
+  end: 2025-09-27 11:00:00 -0400
   title: CSA pickup
   category: pickup
   description: Pick up Community Solidarity Agriculture bouquet share.
   
 - start: 2025-10-04 09:00:00 -0400
-  end: 2025-10-04 10:30:00 -0400
-  title: Harvest and arrange
+  end: 2025-10-04 12:00:00 -0400
+  title: Harvest, arrange, and distribute
   category: volunteer
   description: Harvest and arrange bouquets for distribution around Roslindale and Jamaica Plain.
   
-- start: 2025-10-04 10:30:00 -0400
-  end: 2025-10-04 12:00:00 -0400
+- start: 2025-10-04 10:00:00 -0400
+  end: 2025-10-04 11:00:00 -0400
   title: CSA pickup
   category: pickup
   description: Pick up Community Solidarity Agriculture bouquet share.
@@ -64,16 +64,22 @@
   category: volunteer
   description: Harvest flowers for distribution at Roslindale Farmers Market the following day.
   
-- start: 2025-10-11 07:00:00 -0400
-  end: 2025-10-11 09:00:00 -0400
-  title: Arrange bouquets onsite at Roslindale Farmers Market
+- start: 2025-10-11 07:30:00 -0400
+  end: 2025-10-11 10:30:00 -0400
+  title: Market day volunteer shift 1 (set-up)
   category: volunteer
-  description: Arrange bouquets onsite at the Roslindale Farmers Market.
+  description: Set up at Roslindale Farmers Market (Adams Park), arrange bouquets, and table.
   
+- start: 2025-10-11 10:30:00 -0400
+  end: 2025-10-11 13:30:00 -0400
+  title: Market day volunteer shift 2 (break-down)
+  category: volunteer
+  description: Table at Roslindale Farmers Market (Adams Park), and break down.
+
 - start: 2025-10-11 09:00:00 -0400
   end: 2025-10-11 13:30:00 -0400
   title: Market Day at Roslindale Farmers Market
-  category: volunteer
+  category: pickup
   description: Come pick up a bouquet at the Roslindale Farmers Market and support our partner.
   
 - start: 2025-11-15 12:00:00 -0400
