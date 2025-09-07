@@ -7,7 +7,7 @@ class: page
 
 # About
 
-Flowers have long represented the beauty and joy we all need to thrive. Flowers to the People imagines a world where oppression is met and undone with beauty, creativity, and joy. 
+Flowers have long represented the beauty and joy we all need to thrive. Flowers to The People imagines a world where oppression is met and undone with beauty, creativity, and joy. 
 
 {% comment %}Like the women of the [Bread & Roses strike of 1912](https://en.wikipedia.org/wiki/1912_Lawrence_textile_strike), we imagine a world where there there is an abundance of bread and roses: both sustenance and beauty.{% endcomment %}
 
