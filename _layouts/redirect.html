@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+  <head>
+    <title>Redirecting...</title>
+    {% if page.redirect_to %}
+    <meta http-equiv="refresh" content="0; url={{ page.redirect_to }}">
+    {% endif %}
+  </head>
+
+  <body>
+    <p>Redirecting to {{ page.redirect_to }}</p>
+  </body>
+
+</html>
