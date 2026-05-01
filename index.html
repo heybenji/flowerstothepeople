@@ -46,8 +46,9 @@ class: home
 </h1>
 
 <p>
-  There are four ways you can get involved:
+  Here are some ways you can get involved:
 </p>
+
 <ol class="get-involved-list">
   <li>
     <a href="https://docs.google.com/forms/d/e/1FAIpQLSc_mUEyj9bZt_skcQKT8Nm99cxukdyVFp9CGZh_Pw90YG33xw/viewform?pli=1" title="Fill out volunteer sign-up form">
@@ -56,17 +57,17 @@ class: home
   <li>
     <a href="https://www.gofundme.com/f/support-beyond-bond-legal-defense-fund?lang=en_US&utm_campaign=man_ss_icons&utm_medium=customer&utm_source=copy_link&attribution_id=sl%3A93d5d7cb-54dd-434a-858d-de9292aa10ed" title="Go to GoFundMe donation form">
       <strong>Donate</strong></a> 
-    when you receive a bouquet (if you wish and are able)</li>
-  <li>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfxoNIEYxpyeKcd_Bwmv8fjp2QYRcbNzJaWAFpNMeHao740FA/viewform?usp=dialog">
-      <strong>Sign up for a 2025 bouquet subscription</strong></a> (Sept./Oct.)
-  </li>
+    when you receive a bouquet or tubers (if you wish and are able)</li>
   <li>
     <a href="https://docs.google.com/forms/d/e/1FAIpQLSc_mUEyj9bZt_skcQKT8Nm99cxukdyVFp9CGZh_Pw90YG33xw/viewform?pli=1" title="Fill out volunteer sign-up form">
       <strong>Help dig up and divide tubers</strong></a> 
     in the fall
   </li>
 </ol>
+
+<p>
+  <em>Note:</em> Volunteer forms will be updated and opened in early summer. Please check back then.
+</p>
   
 </section>
 
@@ -81,7 +82,7 @@ class: home
 
 <section class="event-schedule">
 
-<h1>2025 Schedule</h1>
+<h1>2026 Schedule</h1>
 
 {% assign events_grouped = site.data.events | group_by_exp: "item","item.start | date: '%Y-%m-%d'" | sort: "name" %}
 {% for group in events_grouped %}
@@ -98,5 +99,15 @@ class: home
 {% endfor %}
 </ul>
 {% endfor %}
+
+<h3>Summer/Fall</h3>
+
+<ul>
+  <li>
+    <time date="2026">
+      Volunteer planting, harvesting, bouquet making, and distribution days TBD!
+    </time>
+  </li>
+</ul>
 
 </section>

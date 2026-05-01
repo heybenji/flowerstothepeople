@@ -23,9 +23,8 @@ We're just a handful of neighbors in Boston who are excited about flowers and ac
 
 ### How can I get involved?
 
-There are four ways you can get involved:
+There are a few ways you can get involved:
 1. Volunteer to harvest and distribute bouquets
-1. Donate when you receive a bouquet
-1. Donate to pick up a Community Solidarity Agriculture share on harvest days
+1. Donate when you receive a bouquet or tubers
 1. Help clean up and divide tubers in the fall
 
